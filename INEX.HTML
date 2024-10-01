@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link src="style.css" rel="stylesheet" type="text/css">
+    <title>week 3</title>
+</head>
+<body>
+    
+
+
+    <p id="firstWord"> OLA</p>
+    <button onclick="ChangeWord();">Click me</button>
+
+    <p id="SW">OLA means  Awe</p>
+    <button onclick="ChangeStyles();">Change</button>
+    <script type="text/javascript" >
+     // Maling a simple alert box
+    // alert("This is an alert")  
+    function  ChangeWord(){
+        document.getElementById("firstWord").innerHTML="loream ipsum";
+    }
+
+    function ChangeStyles(){
+        documnet.getElementById("SW").style.fontSize="90px";
+        document.getElementById("SW").style.fontStyle="italic";
+        document.getElementById("SW").style.color="blue";
+    }
+
+    </script>
+
+</body>
+</html>
